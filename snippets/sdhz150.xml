@@ -10,9 +10,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="vendor/lineage" name="sdhz152/android_vendor_lineage" remote="github" revision="lineage-15.1" />
+  <project path="frameworks/opt/datetimepicker" name="sdhz152/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="frameworks/av" name="sdhz152/android_frameworks_av" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="frameworks/base" name="sdhz152/android_frameworks_base" remote="github" revision="lineage-15.1" groups="pdk-cw-fs" />
   <project path="packages/apps/Eleven" name="sdhz152/android_packages_apps_Eleven" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Calendar" name="sdhz152/android_packages_apps_Calendar" groups="pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Contacts" name="sdhz152/android_packages_apps_Contacts" remote="github" revision="lineage-15.1" />
   <project path="packages/services/Telecomm" name="sdhz152/android_packages_services_Telecomm" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Trebuchet" name="sdhz152/android_packages_apps_Trebuchet" remote="github" revision="lineage-15.1" />
