@@ -23,6 +23,7 @@
   <project path="packages/apps/DocumentsUI" name="sdhz152/android_packages_apps_DocumentsUI" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/LineageParts" name="sdhz152/android_packages_apps_LineageParts" remote="github" revision="lineage-15.1" />
 <project path="packages/providers/PhoneLocationProvider" remote="github" revision="8.1.x" name="sdhz151/android_packages_provider_PhoneLocationProvider" />
+  <project path="packages/providers/ContactsProvider" name="sdhz152/android_packages_providers_ContactsProvider" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/suda/SudaSDKs" remote="github" revision="8.1.x" name="sdhz151/android_external_suda_SudaSDKs" />
   <project path="packages/apps/CMFileManager" name="sdhz150/android_packages_apps_CMFileManager" remote="github" revision="XOS-8.0" />
   <project path="android" name="sdhz152/android" remote="github" revision="lineage-15.1" />
