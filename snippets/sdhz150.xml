@@ -22,6 +22,7 @@
   <project path="packages/apps/Dialer" name="sdhz152/android_packages_apps_Dialer" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Messaging" name="sdhz152/android_packages_apps_Messaging" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/DocumentsUI" name="sdhz152/android_packages_apps_DocumentsUI" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" name="sdhz152/android_packages_apps_Settings" remote="github" revision="lineage-15.1" groups="pdk-fs" />
   <project path="packages/apps/LineageParts" name="sdhz152/android_packages_apps_LineageParts" remote="github" revision="lineage-15.1" />
 <project path="packages/providers/PhoneLocationProvider" remote="github" revision="8.1.x" name="sdhz151/android_packages_provider_PhoneLocationProvider" />
   <project path="packages/providers/ContactsProvider" name="sdhz152/android_packages_providers_ContactsProvider" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
