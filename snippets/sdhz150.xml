@@ -29,4 +29,5 @@
   <project path="external/suda/SudaSDKs" remote="github" revision="8.1.x" name="sdhz151/android_external_suda_SudaSDKs" />
   <project path="packages/apps/CMFileManager" name="sdhz150/android_packages_apps_CMFileManager" remote="github" revision="XOS-8.0" />
   <project path="android" name="sdhz152/android" remote="github" revision="lineage-15.1" />
+  <project path="lineage-sdk" name="sdhz152/android_lineage-sdk" remote="github" revision="lineage-15.1" />
 </manifest>
