@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build/make" name="sdhz152/android_build" revision="lineage-15.1" groups="pdk" >
+  <remote  name="sdhz150"
+           fetch="https://github.com/sdhz152"
+	   revision="refs/heads/lineage-15.1" />
+
+  <project path="build/make" name="android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -9,25 +13,25 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="vendor/lineage" name="sdhz152/android_vendor_lineage" remote="github" revision="lineage-15.1" />
-  <!--<project path="frameworks/opt/telephony" name="sdhz152/android_frameworks_opt_telephony" remote="github" revision="lineage-15.1" groups="pdk" />-->
-  <project path="frameworks/opt/datetimepicker" name="sdhz152/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
-  <project path="frameworks/av" name="sdhz152/android_frameworks_av" groups="pdk" remote="github" revision="lineage-15.1" />
-  <project path="frameworks/base" name="sdhz152/android_frameworks_base" remote="github" revision="lineage-15.1" groups="pdk-cw-fs" />
-  <project path="packages/apps/Eleven" name="sdhz152/android_packages_apps_Eleven" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/Calendar" name="sdhz152/android_packages_apps_Calendar" groups="pdk-fs" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/Contacts" name="sdhz152/android_packages_apps_Contacts" remote="github" revision="lineage-15.1" />
-  <project path="packages/services/Telecomm" name="sdhz152/android_packages_services_Telecomm" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/Trebuchet" name="sdhz152/android_packages_apps_Trebuchet" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/Dialer" name="sdhz152/android_packages_apps_Dialer" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/Messaging" name="sdhz152/android_packages_apps_Messaging" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/DocumentsUI" name="sdhz152/android_packages_apps_DocumentsUI" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Settings" name="sdhz152/android_packages_apps_Settings" remote="github" revision="lineage-15.1" groups="pdk-fs" />
-  <project path="packages/apps/LineageParts" name="sdhz152/android_packages_apps_LineageParts" remote="github" revision="lineage-15.1" />
-<project path="packages/providers/PhoneLocationProvider" remote="github" revision="8.1.x" name="sdhz151/android_packages_provider_PhoneLocationProvider" />
-  <project path="packages/providers/ContactsProvider" name="sdhz152/android_packages_providers_ContactsProvider" remote="github" revision="lineage-15.1" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/suda/SudaSDKs" remote="github" revision="8.1.x" name="sdhz151/android_external_suda_SudaSDKs" />
-  <project path="packages/apps/CMFileManager" name="sdhz150/android_packages_apps_CMFileManager" remote="github" revision="XOS-8.0" />
-  <project path="android" name="sdhz152/android" remote="github" revision="lineage-15.1" />
-  <project path="lineage-sdk" name="sdhz152/android_lineage-sdk" remote="github" revision="lineage-15.1" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="sdhz150" />
+  <!--<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sdhz150" groups="pdk" />-->
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="sdhz150" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="sdhz150" groups="pdk-cw-fs" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="sdhz150" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="sdhz150" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sdhz150" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="sdhz150" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="sdhz150" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sdhz150" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sdhz150" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="sdhz150" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sdhz150" groups="pdk-fs" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="sdhz150" />
+  <project path="packages/providers/PhoneLocationProvider" remote="sdhz150" name="android_packages_provider_PhoneLocationProvider" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="sdhz150" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/suda/SudaSDKs" remote="sdhz150" name="android_external_suda_SudaSDKs" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="sdhz150" />
+  <project path="android" name="android" remote="sdhz150" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="sdhz150" />
 </manifest>
