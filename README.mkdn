@@ -1,52 +1,51 @@
 LineageOS
-===========
-
-Submitting Patches
-------------------
-
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    lineagegerrit <for(new)/changes(patch set)> <branch/change-id>
-
-    repo start lineage-15.1 .
-    (Make your changes and commit)
-    repo upload .
-
-Note: "." means the current directory
-For more help on using this tool, use this command: `repo help upload`
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
-
-
-Getting Started
----------------
-
-To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+Getting started
+To get started with Android/LineageOS, you'll need to get familiar with Repo and Version Control with Git.
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/sdhz152/android.git -b lineage-15.1
-
+repo init -u git://github.com/sdhz152/android.git -b lineage-15.1
 Then to sync up:
 
-    repo sync
+repo sync
+Please see the LineageOS Wiki for building instructions, by device.
 
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
+Submitting patches
+Patches are always welcome! Please submit your patches via LineageOS Gerrit!
 
+Simply follow our guide on how to submit patches.
+
+To view the status of your and others' patches, visit LineageOS Gerrit Code Review.
 
 Buildbot
---------
-
 All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
+You can view the current build statuses at LineageOS Jenkins.
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
+Builds produced weekly by the buildbot can be downloaded from LineageOS downloads.
+
+LineageOS
+入门
+要开始使用Android / LineageOS，您需要熟悉使用Git的Repo和版本控制。
+
+要使用LineageOS树初始化本地存储库，请使用如下命令：
+
+repo init -u git://github.com/sdhz152/android.git -b lineage-15.1
+然后同步：
+
+回购同步
+请按设备查看LineageOS Wiki以获取构建说明。
+
+提交补丁
+随时欢迎补丁！ 请通过LineageOS Gerrit提交补丁！
+
+只需按照我们的指南提交补丁即可。
+
+要查看您和他人补丁的状态，请访问LineageOS Gerrit Code Review。
+
+Buildbot
+所有受支持的设备都是每周构建的，并且会定期生成更改，以确保源树可以构建。
+
+您可以在LineageOS Jenkins中查看当前的构建状态。
+
+可以从LineageOS下载下载buildbot每周生成的构建。
